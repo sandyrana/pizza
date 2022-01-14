@@ -1,0 +1,63 @@
+.App-header {  
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  padding: 0px 10px 0px 10px;
+  color:white
+
+  /* flex-direction: column; */
+  /* align-items: center; */
+
+  
+}
+.App-header ul{
+  display: flex;
+}
+.App-header ul li{
+  border-right: 1px solid lightgrey;
+  /* border-left: 1px solid lightgrey; */
+
+  height: 40px;
+  width: 100px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type:none;
+ 
+  /* padding: 5px; */
+}
+.App-header ul  a{
+  color:white;
+  text-decoration:none;
+}
+
+.container{
+  background-color: blue;
+}
+.Pizza{
+  display: flex;
+  padding:10px;
+ 
+}
+.Pizzadata{
+  border:1px solid grey;
+  padding: 10px;
+}
+.Pizza h4{
+  width: 200px;
+}
+.cart{
+  padding: 10px;
+  background-color: white;
+}
+.cart img{
+  height: 100px;
+  width:100px;
+  border-radius:5px;
+}
+.cart .cartitem{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
